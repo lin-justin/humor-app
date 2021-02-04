@@ -1,3 +1,3 @@
-*Humor Detection App*
+# Humor Detection 
 
-# humor-app
+
