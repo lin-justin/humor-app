@@ -12,3 +12,5 @@ cd humor-app
 pip install requirements.txt
 streamlit run app.py
 ```
+
+![](sample-usage.mp4)
