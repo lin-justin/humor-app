@@ -15,7 +15,7 @@ def predict_humor(model: fasttext.FastText._FastText, sentence: str) -> str:
     else:
         label = label.title()
     confidence = predictions[1][0]
-    return "{} ({:.2f}% confident)".format(label, confidence)
+    return "{} ({:.2f}% confident)".format(label, confidence * 100)
 
 def main():
 
