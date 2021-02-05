@@ -13,4 +13,4 @@ pip install requirements.txt
 streamlit run app.py
 ```
 
-![](sample-usage.mp4)
+![](https://github.com/lin-justin/humor-app/blob/master/sample-usage.mp4)
