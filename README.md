@@ -6,6 +6,8 @@ The model was trained on this [data](https://www.kaggle.com/moradnejad/200k-shor
 
 ## Usage
 
+Please have Python 3.8+ installed.
+
 ```
 git clone https://github.com/lin-justin/humor-app.git
 cd humor-app
