@@ -10,5 +10,6 @@ The model was trained on this [data](https://www.kaggle.com/moradnejad/200k-shor
 git clone https://github.com/lin-justin/humor-app.git
 cd humor-app
 pip install requirements.txt
+python model.py
 streamlit run app.py
 ```
