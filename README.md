@@ -18,4 +18,4 @@ streamlit run app.py
 
 ## Demo
 
-!
+![](demo.gif)
