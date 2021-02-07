@@ -25,9 +25,14 @@ def main():
     st.write("""
     # Humor Detection Web App
 
+    ## Justin Lin
+
+    [LinkedIn](https://www.linkedin.com/in/justinhlin/)
+    [GitHub](https://github.com/lin-justin)
+
     This app leverages Facebook Research's [fastText](https://fasttext.cc/) library to predict if your sentence is humorous or not!
 
-    Data is obtained from [Kaggle](https://www.kaggle.com/moradnejad/200k-short-texts-for-humor-detection).
+    The model was trained on this [data](https://www.kaggle.com/moradnejad/200k-short-texts-for-humor-detection).
     """)
 
     model = fasttext.load_model("model_humor.bin")
