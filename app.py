@@ -35,7 +35,7 @@ def main():
     The model was trained on this [data](https://www.kaggle.com/moradnejad/200k-short-texts-for-humor-detection).
     """)
 
-    model = fasttext.load_model("model_humor.bin")
+    model = fasttext.train_supervised("data/train_clean.txt", lr = 0.3, epoch = 25, wordNgrams = 2)
 
     user_sentence = st.text_input("Check if your sentence is humorous or not", "I am a master of tearable puns but only on paper")
     st.write("Your sentence is:", predict_humor(model, user_sentence))
