@@ -12,10 +12,11 @@ Please have Python 3.8+ installed.
 git clone https://github.com/lin-justin/humor-app.git
 cd humor-app
 pip install requirements.txt
-python model.py
 streamlit run app.py
 ```
 
 ## Demo
 
 ![](demo.gif)
+
+# [Link](https://share.streamlit.io/lin-justin/humor-app/main/app.py)
